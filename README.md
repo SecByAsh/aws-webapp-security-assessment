@@ -1,21 +1,41 @@
 # AWS Web Application Security Assessment
 
-## Overview
+This repository documents a security assessment performed for a cloud-hosted application in its development phase. The objective was to identify potential security gaps in the application and cloud infrastructure, and provide actionable, standards-based recommendations to improve the security posture before production deployment.
 
-This repository documents a security assessment performed for a cloud-hosted application in its development phase. The project involved evaluating both the AWS backend infrastructure and the application codebase to provide actionable recommendations aligned with industry best practices.
+## 🧠 Context
 
-This review was conducted in collaboration with stakeholders including the CIO of the organization, the Project Manager, the Tech Lead, and the Development Team. Findings and recommendations were mapped to standards such as the [OWASP Application Security Verification Standard (ASVS) v4.0](https://github.com/OWASP/ASVS) and relevant AWS security guidelines.
+The web application, commissioned by a non-profit organization, was still under active development at the time of assessment. The consulting firm responsible for the application’s delivery engaged me to perform an independent security evaluation. The scope included assessing the application codebase and the AWS-hosted infrastructure to ensure alignment with industry best practices.
+
+This review was conducted in collaboration with stakeholders including the CIO of the organization, the CEO of the consulting firm, the Project Manager, and the Development Team. Findings and recommendations were mapped to standards such as the [OWASP Application Security Verification Standard (ASVS) v4.0](https://github.com/OWASP/ASVS) and relevant AWS security guidelines.
 
 |⚠️ Note: Sensitive implementation details, diagrams, and policy documents have been redacted or omitted to maintain confidentiality. Only sanitized or illustrative examples are included.
 
-## 🔍 Assessment Objectives
+## 🔍 Methodology
+
+The assessment followed a structured, standards-aligned process.
+
+### 🗣️ Information Gathering
+
+- Conducted stakeholder interviews to understand business context, architecture, and existing security considerations:
+  - CEO of the consulting firm overseeing the project.
+  - External Project Manager managing development timelines.
+  - Development Team responsible for implementation.
+  - Organization’s CIO managing AWS infrastructure access.
+
+- Shared a preliminary **security metrics questionnaire** with the Development Team to establish a baseline for evaluation.
+
+- Conducted an initial planning and update session with both the consultant firm’s leadership and the non-profit organization’s stakeholders to finalize scope, timeline, and access requirements.
+
+### 🔐 Security Assessment
+
+#### 🔍 Assessment Objectives
 
 - Assess the security of the application’s AWS backend architecture at its current stage of development.
 - Perform application security testing on code and development workflows.
 - Identify misconfigurations or missing controls across key security domains.
 - Recommend phased, actionable improvements mapped to AWS best practices and industry standards (e.g., NIST, OWASP ASVS).
 
-## 🔑 Key Activities
+#### 🔑 Key Activities
 
 The assessment was conducted in two broad phases:
 
