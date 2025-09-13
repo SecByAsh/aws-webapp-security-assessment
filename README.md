@@ -140,7 +140,7 @@ The assessment was conducted in two broad phases:
 
 ## 📊Security Standards & Control Mapping
 
-Findings and recommendations were mapped against industry standards to ensure alignment with recognized best practices.
+Assessment activities and recommendations were mapped against industry standards to ensure alignment with recognized best practices.
 
 | **Control Category**     | **Referenced Standard**                                                                                                                                                    | **Examples from Review**                                                                                                                     |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -148,7 +148,7 @@ Findings and recommendations were mapped against industry standards to ensure al
 | **Malicious Code**       | [ASVS V10 – Malicious Code](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x18-V10-Malicious.md)                                   | SAST via SonarQube, secure dependency management, analysis of external APIs and libraries                                                    |
 | **Architecture & Design**| [ASVS V1 – Architecture](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x10-V1-Architecture.md)                                    | Review of cloud-native design choices, use of AWS Shared Responsibility Model, absence of layered DDoS defenses                             |
 | **Data Protection**      | SOC 2 Principles, NIST SP 800-53, AWS Security Pillars                                                                               | Client-side encryption recommendation, VPC endpoints for DynamoDB & S3, encryption policy checks                                              |
-| **Logging & Monitoring** | AWS CloudTrail, CIS AWS Benchmarks, [ASVS V10.4 – Logging](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x18-V10-Malicious.md)   | Verified logging configuration on Lambda & CloudTrail, GuardDuty use, recommendations for log access control & retention policies            |
+| **Logging & Monitoring** | AWS CloudTrail, CIS AWS Benchmarks, [ASVS V7 – Error Handling and Logging](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x15-V7-Error-Logging.md)   | Verified logging configuration on Lambda & CloudTrail, GuardDuty use, recommendations for log access control & retention policies            |
 | **Governance & Compliance** | AWS Well-Architected Tool, AWS Artifact, CIS AWS Foundations Benchmark                                                           | Use of AWS Security Hub, recommendations for security documentation, policy tracking, and centralized compliance coverage                    |
 
 
