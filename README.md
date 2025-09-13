@@ -13,7 +13,7 @@ This repository documents a security assessment performed for a cloud-hosted app
 
 |🔐 Actual findings and sensitive artifacts have been redacted or generalized for confidentiality.
 
-## 🧠 Context
+## 📖 Context
 
 The web application, commissioned by a non-profit organization, was still under active development at the time of assessment. The consulting firm responsible for the application’s delivery engaged me to perform an independent security evaluation. The scope included assessing the application codebase and the AWS-hosted infrastructure to ensure alignment with industry best practices.
 
@@ -21,7 +21,7 @@ This review was conducted in collaboration with stakeholders including the CIO o
 
 |⚠️ Note: Sensitive implementation details, diagrams, and policy documents have been redacted or omitted to maintain confidentiality. Only sanitized or illustrative examples are included.
 
-## 🧠 Methodology
+## ⚙️ Methodology
 
 This security assessment was conducted using a **structured, standards-aligned, and consultative approach**, designed to ensure thoroughness, clarity, and relevance to the client’s unique environment and objectives.
 
