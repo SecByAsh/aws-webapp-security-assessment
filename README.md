@@ -153,19 +153,37 @@ Assessment activities and recommendations were mapped against industry standards
 
 
 
-## ✅ Deliverables
 
-The following artifacts were created as part of this engagement:
+## 📑 Deliverables
 
-    ✅ README.md (this document)
+The outputs of this assessment were designed to be **clear, actionable, and tailored** to both technical and non-technical stakeholders. Deliverables included:
 
-    📋 A sanitized version of the Final Report structured using a SANS-inspired layout
+1. **Executive Summary**  
+   A high-level overview of the application’s security posture, business impact of risks, and prioritized recommendations for leadership.
 
-    🧩 A project-specific Preliminary Metrics Questionnaire
+2. **Technical Security Assessment Report**  
+   A detailed report organized by AWS security domains, covering:  
+   - Observations from infrastructure and code assessments  
+   - Identified risks and gaps mapped against industry standards  
+   - Recommended controls, policies, and configurations  
+   - Suggested timelines and responsible roles for remediation  
 
-    🗂️ A risk tracking spreadsheet with priority-tagged controls and responsible parties
+3. **Preliminary Metrics Questionnaire (Artifact)**  
+   A structured questionnaire used to capture baseline application and infrastructure metrics across UI, backend, and SAS Viya environments. This established initial visibility into architecture, dependencies, and assurance activities.
 
-    [🔐 Visual network architecture diagram (Redacted – not publicly included)]
+4. **Control Mapping to Industry Standards**  
+   Findings and recommendations were mapped against:  
+   - [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/)  
+   - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)  
+   - [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
+
+5. **Actionable Recommendations Matrix**  
+   A prioritized matrix of action items categorized as **Immediate**, **Phase I**, and **Phase II**, to guide the remediation roadmap.
+
+---
+
+> These deliverables ensured that both the **development team** and the **executive stakeholders** had a clear, role-appropriate path forward — from tactical fixes to strategic governance improvements.
+
 
 Notes
 
