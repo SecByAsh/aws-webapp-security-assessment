@@ -2,11 +2,12 @@
 
 This repository documents a security assessment performed for a cloud-hosted application in its development phase. The objective was to identify potential security gaps in the application and cloud infrastructure, and provide actionable, standards-based recommendations to improve the security posture before production deployment.
 
-## 📁 Repository Contents
+## 📁 Artifacts
 | File                                     | Description                                                      |
 | ---------------------------------------- | ---------------------------------------------------------------- |
 | `README.md`                              | Project overview, methodology, and activity summary              |
-| `security-audit-report.pdf` *(Redacted)* | Final structured security audit report (SANS-style template)     |
+| `Executive Report` *(Redacted)*         | A high-level executive summary                                   |
+| `Technical Audit Report`                 | A structured technical security audit report                     |
 | `questionnaire-aws-preassessment.pdf`    | Questionnaire used to gather context about AWS environment       |
 | `task-prioritization.xlsx` *(Redacted)*  | Suggested task list, timeline, and owner mapping for remediation |
 | `architecture-diagram.png` *(Mock)*      | Sample AWS architecture diagram representing components assessed |
