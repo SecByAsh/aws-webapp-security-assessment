@@ -2,18 +2,6 @@
 
 This repository documents a security assessment performed for a cloud-hosted application in its development phase. The objective was to identify potential security gaps in the application and cloud infrastructure, and provide actionable, standards-based recommendations to improve the security posture before production deployment.
 
-## 📁 Artifacts
-| File                                     | Description                                                      |
-| ---------------------------------------- | ---------------------------------------------------------------- |
-| `README.md`                              | Project overview, methodology, and activity summary              |
-| `Executive Report` *(Redacted)*         | A high-level executive summary                                   |
-| `Technical Audit Report`                 | A structured technical security audit report                     |
-| `questionnaire-aws-preassessment.pdf`    | Questionnaire used to gather context about AWS environment       |
-| `task-prioritization.xlsx` *(Redacted)*  | Suggested task list, timeline, and owner mapping for remediation |
-| `architecture-diagram.png` *(Mock)*      | Sample AWS architecture diagram representing components assessed |
-
-|🔐 Actual findings and sensitive artifacts have been redacted or generalized for confidentiality.
-
 ## 📖 Context
 
 The web application, commissioned by a non-profit organization, was still under active development at the time of assessment. The consulting firm responsible for the application’s delivery engaged me to perform an independent security evaluation. The scope included assessing the application codebase and the AWS-hosted infrastructure to ensure alignment with industry best practices.
